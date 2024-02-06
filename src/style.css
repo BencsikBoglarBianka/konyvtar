@@ -1,0 +1,39 @@
+/*
+* File: style.css
+* Author: Bencsiik Boglár Bianka
+* Copyright: 2021, Bencsik Boglár Bianka 
+* Group: Szoft V
+* Date: 2024-02-06
+* Github: https://github.com/BencsikBoglarBianka/
+* Licenc: GNU GPL
+*/
+
+.conatiner{
+    margin: 2%;
+}
+
+.table {
+    border: 1px solid white;
+  }
+
+
+.table th, td{
+    border: 1px solid white;
+    background-color: navy;
+    color: white;
+  }
+
+
+
+
+
+.table_001 {
+    border: 1px solid black;
+    border-collapse: collapse;
+ }
+
+
+ .table_001 tr, .table td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+ }
