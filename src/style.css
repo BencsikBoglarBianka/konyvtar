@@ -12,15 +12,15 @@
     margin: 2%;
 }
 
-.table {
+.table_001 {
     border: 1px solid white;
   }
 
 
-.table th, td{
+.table th, .table.td{
     border: 1px solid white;
     background-color: navy;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
 
@@ -28,12 +28,54 @@
 
 
 .table_001 {
-    border: 1px solid black;
-    border-collapse: collapse;
+    background-color: aqua;
+    color: rgb(8, 8, 8);
+    border-collapse: separate;
  }
 
 
- .table_001 tr, .table td {
+ .table_001 tr td {
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
+ }
+
+ tr:nth-child(even) {   /*odd páratlanokat szienzi, even párosakat, vgy megadhatom a számát melyiket szineze be */
+    background-color: aquamarine;
+ }
+
+ td, th {
+  border-radius: 10px;
+ }
+
+ body {
+  background-color: rgba(223, 119, 255, 0.582);
+ }
+
+ .epulet {
+  background-image: url(images/konyvtar.jpg);
+ }
+
+ .belso{
+  margin: 30px;
+  padding: 20px;
+  background-color: white;
+  opacity: 0.6;
+ }
+
+ .doboz, table {
+  width: 800px;
+  height: 800px;
+  background-color: aliceblue;
+  background-image: linear-gradient(pink, red);
+  margin: 20px;
+  text-align: center;
+  box-shadow: 15px 15px 15px rgb(126, 77, 77);  /*1. vizszintes eltolás 2. fuggoleget eltolas 3.mennyire legyen éles 4. szines*/
+ }
+
+ img{
+  margin-top: 300px;
+ }
+
+ h1{
+  box-shadow: 18px 18px 18px black;
  }
